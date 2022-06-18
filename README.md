@@ -10,15 +10,20 @@ as a colorblind person.
 
 Luckily, Chrome has a feature called [Local
 Overrides](https://developer.chrome.com/blog/new-in-devtools-65/#overrides) that
-allow you to customize the website's CSS. I used this feature to replace the default colors with <span style="color:#0154A6">⬤</span> (letters that are contained in the word but not at the right position) and <span style="color:#F7951F">⬤</span> (letters that are at the right position). (Thanks to [Datawrapper](https://blog.datawrapper.de/colorblindness-part2) for their series on colorblindness.)
+allow you to customize the website's CSS. I used this feature to replace the default colors:
+
+- ![#0154A6](https://via.placeholder.com/15/0154A6/000000?text=+) for letters that are contained in the word, but that are not at the right position by now.
+- ![#F7951F](https://via.placeholder.com/15/F7951F/000000?text=+) for letters that are at the right position.
+
+Thanks to [Datawrapper](https://blog.datawrapper.de/colorblindness-part2) for their series on colorblindness!
 
 ## How it looks like
 
-### Before
+### Default
 
 <img src=hoelle_default.png>
 
-### After
+### Adjusted
 
 <img src=hoelle_custom.png>
 
@@ -26,7 +31,7 @@ allow you to customize the website's CSS. I used this feature to replace the def
 
 1. Clone the repository or just download the folder `css` to your local machine.
 1. Open Chrome
-1. Open Chromes developer tools (Menu > More Tools > Developer Tools) (Windows/Linux: `Ctrl+Shift+J`, Mac: `Ctrl+Option+J`)
-1. Navigate to Sources > Overrides and select the folder `css` as override.
+1. Open Chromes developer tools (`Menu > More Tools > Developer Tools`) (Windows/Linux: `Ctrl+Shift+J`, Mac: `Ctrl+Option+J`)
+1. Navigate to `Sources > Overrides` and select the folder `css` as override.
 1. Allow Chrome to access the selected folder.
 1. Done.
