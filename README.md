@@ -12,8 +12,8 @@ Luckily, Chrome has a feature called [Local
 Overrides](https://developer.chrome.com/blog/new-in-devtools-65/#overrides) that
 allow you to customize the website's CSS. I used this feature to replace the default colors:
 
-- ![#0154A6](https://via.placeholder.com/15/0154A6/000000?text=+) for letters that are contained in the word, but that are not at the right position by now.
-- ![#F7951F](https://via.placeholder.com/15/F7951F/000000?text=+) for letters that are at the right position.
+- Blue for letters that are contained in the word, but that are not at the right position by now.
+- Orange for letters that are at the right position.
 
 Thanks to [Datawrapper](https://blog.datawrapper.de/colorblindness-part2) for their series on colorblindness!
 
